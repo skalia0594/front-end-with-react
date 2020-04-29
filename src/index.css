@@ -1,13 +1,66 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background: lightgray;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+    max-width: 600px;
+    max-height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    background: white;
+    padding: 10px;
+}
+.filterName {
+    max-width: 600px;
+}
+.filterTag {
+    max-width: 600px;
+}
+#name-input {
+    width: 600px;
+    max-width: 100%;
+}
+#tag-input {
+    width: 600px;
+    max-width: 100%;
+}
+div.list {
+    padding: 10px;
+    max-height: 400px;
+    overflow: scroll;
+}
+.student {
+    border-bottom: 1px solid #ebeced;
+    text-align: left;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image {
+    
+}
+.content {
+    width: 300px;
+    max-width: 100%;
+}
+.name {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: monospace;
+}
+.grades {
+    padding: 10px;
+}
+.add-tag-input{
+    width: 200px;
+    max-width: 100%;
+}
+.tags {
+    display: flex;
+    margin: 10px;
+}
+.tag {
+    border-style: groove;
+    background-color: lightgray;
+    margin-right: 5px;
 }

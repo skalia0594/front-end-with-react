@@ -1,11 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import StudentProfiles from './components/StudentProfiles';
 function App() {
   return (
     <div className="App">
-      Hello!!
+      <StudentProfiles />
     </div>
   );
 }
