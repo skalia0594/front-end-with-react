@@ -1,10 +1,14 @@
 import React from 'react';
 import StudentProfiles from './components/StudentProfiles';
+import {ApiDataContextProvider} from './data/ApiDataContext';
+
 function App() {
   return (
-    <div className="App">
-      <StudentProfiles />
-    </div>
+    <ApiDataContextProvider>
+      <div className="App">
+        <StudentProfiles />
+      </div>
+    </ApiDataContextProvider>
   );
 }
 
