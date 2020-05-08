@@ -1,2 +1,2 @@
 # frontendwithreact
-Practice front end with rect.js
+Practice front end with react.js
